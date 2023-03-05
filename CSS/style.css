@@ -1,0 +1,104 @@
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    margin: 0;
+  }
+  
+  .banner {
+    background-image: url(../IMG/_ANT5822.JPG);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .banner p, h1 {
+    color: rgb(239, 175, 227);
+    margin: 0;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+  }
+  
+  .banner button {
+    background-color: rgb(0, 0, 0);
+    color: #e77fbd;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .descricao {
+    display: inline-block;
+    width: 40%;
+  }
+  .habilidades{
+    display: inline-block;
+    width: 40%;
+    margin: 40px;
+    justify-content: center;
+    vertical-align: 150px;
+  }
+
+  .sobre{
+    margin: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+  }
+  .button{
+    background-color: rgb(0, 0, 0);
+    color: #e77fbd;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  .img{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .botao{
+    background-color: rgb(243, 153, 243);
+    color: #000000;
+    text-align: center;
+    text-size-adjust: 50px;
+
+  }
+  .body{
+    background-color: black;
+  }
+  .gatos{
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .tmSocial{
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .bg{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text{
+    margin:0;
+  }
+  li{
+    list-style: none;
+  }
